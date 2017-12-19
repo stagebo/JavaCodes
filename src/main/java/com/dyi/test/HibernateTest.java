@@ -10,7 +10,6 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-import org.hibernate.query.NativeQuery;
 
 import com.dyi.hibernate.SessionManager;
 import com.dyi.hibernate.model.User;
