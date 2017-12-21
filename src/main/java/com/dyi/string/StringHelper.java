@@ -2,6 +2,10 @@ package com.dyi.string;
 
 import java.util.Random;
 
+/**
+ * author：wyb
+ * 时间：2017-12-21 10:56:56
+ */
 public class StringHelper {
 	public static String getRandomName(int length){
 		String str = "abcdefghijklmnopqrstuvwxyz";

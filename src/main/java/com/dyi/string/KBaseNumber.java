@@ -1,5 +1,10 @@
 package com.dyi.string;
 
+/**
+ * author:wyb
+ * 创建时间：2017-12-21 10:57:50
+ * To：十进制转k进制
+ */
 public class KBaseNumber {
 	public static void main(String[] args) {
 		for (int i = -100; i < 100; i++) {
