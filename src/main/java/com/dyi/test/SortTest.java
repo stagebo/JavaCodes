@@ -19,7 +19,7 @@ public class SortTest {
 			if(!groupList.containsKey(key)){
 				groupList.put(key, 0);
 			}
-			groupList.put(key, groupList.get(key)+1);
+			groupList.put(key, groupList.get(key)+1);  
 		}
 		
 		//打印结果
