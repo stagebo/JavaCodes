@@ -1,4 +1,4 @@
-package com.dyi.leetcode;
+/*package com.dyi.leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,13 +20,13 @@ class MagicDictionary {
 	public List<String> list = null;
 	public List<String> nList = null;
 
-	/** Initialize your data structure here. */
+	*//** Initialize your data structure here. *//*
 	public MagicDictionary() {
 		list = new ArrayList<String>();
 		nList = new ArrayList<String>();
 	}
 
-	/** Build a dictionary through a list of words */
+	*//** Build a dictionary through a list of words *//*
 	public void buildDict(String[] dict) {
 		for (String w : dict) {
 			if (nList.contains(w)) {
@@ -45,10 +45,10 @@ class MagicDictionary {
 		}
 	}
 
-	/**
+	*//**
 	 * Returns if there is any word in the trie that equals to the given word
 	 * after modifying exactly one character
-	 */
+	 *//*
 	public boolean search(String word) {
 
 		String[] wa = word.split("");
@@ -65,8 +65,9 @@ class MagicDictionary {
 	}
 }
 
-/**
+*//**
  * Your MagicDictionary object will be instantiated and called as such:
  * MagicDictionary obj = new MagicDictionary(); obj.buildDict(dict); boolean
  * param_2 = obj.search(word);
- */
+ *//*
+*/
