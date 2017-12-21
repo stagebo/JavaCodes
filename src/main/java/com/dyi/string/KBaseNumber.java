@@ -2,15 +2,15 @@ package com.dyi.string;
 
 public class KBaseNumber {
 	public static void main(String[] args) {
-		for (int i = 0; i < 100; i++) {
+		for (int i = -100; i < 100; i++) {
 			System.out.print("" + i + "__十进制: "
 					+ parseKBase(i, "123456789".split("")));
-			System.out.print("," + "二进制: " + parseKBase(i, "1".split("")));
-			System.out.print("," + "八进制: "
+			System.out.print(",   " + "八进制: "
 					+ parseKBase(i, "1234567".split("")));
-			System.out.print("," + "16进制: "
+			System.out.print(",   " + "16进制: "
 					+ parseKBase(i, "123456789ABCDEF".split("")));
-			System.out.println("," + "A-Z进制: " + parseKBase(i));
+			System.out.print(",   " + "A-Z进制: " + parseKBase(i));
+			System.out.println(",   " + "二进制: " + parseKBase(i, "1".split("")));
 		}
 	}
 
