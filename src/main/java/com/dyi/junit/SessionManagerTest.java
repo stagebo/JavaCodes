@@ -12,6 +12,7 @@ import com.dyi.hibernate.SessionManager;
 import com.dyi.hibernate.model.User;
 
 import org.hibernate.Session;
+//123123123  2017-12-26 15:26:55
 public class SessionManagerTest {
 
 	@Before
