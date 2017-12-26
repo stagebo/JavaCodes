@@ -1,3 +1,4 @@
+/*
 package com.dyi.junit;
 
 import static org.junit.Assert.*;
@@ -21,9 +22,12 @@ public class SessionManagerTest {
 	public void testOpenSession() {
 		Session session = SessionManager.openSession();
 		List<User> l = session.createQuery("select * from t_user").list();
-		/*
+		*/
+/*
 		for(User u:l)System.out.println(u.toString());
-		assertNotSame(1,1);*/
+		assertNotSame(1,1);*//*
+
 	}
 
 }
+*/

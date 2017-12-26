@@ -1,3 +1,4 @@
+/*
 package com.dyi.practice;
 
 import java.io.IOException;
@@ -32,13 +33,15 @@ public class DoctorExamination {
 		pairList.add(new BasicNameValuePair("username", username));
 		pairList.add(new BasicNameValuePair("password", EncriptHelper
 				.GetMD5Code(pwd)));
-		/*Map studentInfo = JSONObject.fromObject(JSONObject.fromObject(
+		*/
+/*Map studentInfo = JSONObject.fromObject(JSONObject.fromObject(
 				JSONObject.fromObject(h.sendPost(url, pairList)).get("data"))
 				.get("studentInfo"));
 		for (Object key : studentInfo.keySet()) {
 			System.out.println(key + " : " + studentInfo.get(key.toString()));
 		}
-		 */
+		 *//*
+
 		String userid = "185313";//studentInfo.get("id").toString();
 		System.out.println(h.sendPost(url, pairList));
 		url = "http://api.yiboshi.com/api/study/student/listStudentProjCourseInfoAndStatus?"
@@ -97,3 +100,4 @@ public class DoctorExamination {
 		}
 	}
 }
+*/

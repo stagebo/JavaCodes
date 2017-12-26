@@ -1,3 +1,4 @@
+/*
 package com.dyi.test;
 
 import static org.junit.Assert.*;
@@ -20,10 +21,12 @@ public class HibernateJTest {
 	public void testGetSession() {
 		System.out.println(123);
 		Session session = HibernateSessionFactory.getSession();
-		/*List l = session.createQuery("select * from t_user").list();
+		*/
+/*List l = session.createQuery("select * from t_user").list();
 		for(Object o:l){
 			System.out.println(o);
-		}*/
+		}*//*
+
 	}
 
 	@Test
@@ -37,3 +40,4 @@ public class HibernateJTest {
 	}
 
 }
+*/
